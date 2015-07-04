@@ -1,0 +1,25 @@
+reflections_lesson_2
+
+How can you use the staging area to make sure you have one commit per logical change?
+-To stage from the working directory after the changes have been made in the game.js file, type in 'git add game.js’.
+
+-to see if it has been added in the staging are, type ‘git diff —staged’. There you will see all the things that have been added into the staging area.
+
+-to commit, type in ‘git commit’. a vim window will pop up to prompt you to type in a message type in the message. After you have written down the message, press ‘esc’ and type in ':x’ to exit and save the vim.
+
+-to check if the changes have been committed, type in ‘git log’ in the terminal’s command prompt. You will see the latest changes at the top of the window.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches will help you split the files you’re working on. the default role is ‘master’. the branch gives the option of working in a separate branch. e.g. from the default ‘master’ to the ‘easy-mode’ branch.
+
+- to set up a branch, type in ‘git branch’ to find out what branches you have available.
+- to create a new branch, type in ‘git branch nameOfNewBranch'
+- to work within the new branch, type in ‘git checkout nameOfNewBranch'
+
+How do the diagrams help you visualize the branch structure?
+
+it helps trace who the parents are, and identify which is the untraceable branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
