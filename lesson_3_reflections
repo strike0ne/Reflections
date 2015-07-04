@@ -1,1 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository is the one which we will make local changes,typically this local repository is on our own computer. A remote repository is the one on the server. git is a distributed version control system.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might not want all of the changes that are made on the remote repository. Hence, you may not want the changes to be pulled automatically.
+
